@@ -166,13 +166,8 @@ function Content() {
                   />
                   <div className="ml-3 ms-2">
                     <p className=" mb-2">
-                      <a href="tel:+233 267 626 632" className="">
-                        +233 267 626 632
-                      </a>
-                    </p>
-                    <p className=" mb-0">
-                      <a href="tel:+233 591 043 194" className="">
-                        +233 591 043 194
+                      <a href="tel:+44 7535 316817" className="">
+                        +44 7535 316817
                       </a>
                     </p>
                   </div>
