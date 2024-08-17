@@ -7,7 +7,17 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "genetate": "next build && next export"
+    "genetate": "next build && next export",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx}": [
+      "eslint --max-warnings=0",
+      "prettier --write"
+    ],
+    "**/*.{html,json,css,scss,md,mdx}": [
+      "prettier -w"
+    ]
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
@@ -15,15 +25,21 @@
     "next-pwa": "^5.6.0",
     "react": "^18",
     "react-bootstrap": "^2.10.2",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "typescript-eslint": "^8.1.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.4.0",
+    "@commitlint/config-conventional": "^19.2.2",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.2.3",
+    "husky": "^9.1.4",
+    "lint-staged": "^15.2.9",
     "postcss": "^8",
+    "prettier": "^3.3.3",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }
