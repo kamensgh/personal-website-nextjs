@@ -1,18 +1,19 @@
 [
   {
-    "id": 5,
-    "title": "JumpLink",
-    "description": "Millions of movies and TV shows to discover. Explore now.",
+    "id": 4,
+    "title": "Mande",
+    "description": "Boost your career by tracking your impact and growth in any space. This innovative platform helps you communicate your value in the language employers understand.",
     "image": "/images/ghanagov.png",
-    "stack": "NextJS , NextAuth, Mongo, Tailwind",
-    "url": "https://github.com/kamensgh/jumplink"
+    "stack": "React , NextJS , Tailwind",
+    "url": "https://www.mande.ai/"
   },
+
   {
     "id": 1,
     "title": "ECG PowerApp",
     "description": "A web app for the Electricity Company of Ghana so users can pay thier prepaid and postpaid electricity bills easily from anywhere.",
     "image": "/images/myghqr.png",
-    "stack": "React , NextJS , C#",
+    "stack": "React , NextJS , Typescript , Azure",
     "url": "https://powerapp.ecg.com.gh/login"
   },
   {
@@ -20,7 +21,7 @@
     "title": "ECG Staff Portal",
     "description": "A portal for  Electricity Company of Ghana cashiers to access customer accounts, view bills & transactions, take payments and capture complaints.",
     "image": "/images/myghqr.png",
-    "stack": "React , NextJS , C#",
+    "stack": "React , NextJS , Typescript , Azure",
     "url": "https://staff.ecg.com.gh/"
   },
   {
@@ -28,23 +29,24 @@
     "title": "RightCom",
     "description": "The company, which specializes in cloud-based customer experience management (CX) software, has evolved into a one-stop-shop for all CX-related needs.",
     "image": "/images/myghqr.png",
-    "stack": "React , KeyCloak , Python",
+    "stack": "React , KeyCloak , Python , Typescript",
     "url": "hhttps://rightcom.com/digital-signage-software/"
   },
-  {
-    "id": 4,
-    "title": "Mande",
-    "description": "Boost your career by tracking your impact and growth in any space. This innovative platform helps you communicate your value in the language employers understand.",
-    "image": "/images/ghanagov.png",
-    "stack": "React , NextJS , TailwindCss",
-    "url": "https://www.mande.ai/"
-  },
+
   {
     "id": 6,
     "title": "GHANA.GOV",
     "description": "Welcome to Ghana's Digital Services and Payments Platform",
     "image": "/images/ghanagov.png",
-    "stack": "React , NextJS , Bootstrap",
+    "stack": "React , NextJS , Bootstrap , Typescript",
     "url": "https://www.ghana.gov.gh/"
+  },
+  {
+    "id": 5,
+    "title": "JumpLink",
+    "description": "Millions of movies and TV shows to discover. Explore now.",
+    "image": "/images/ghanagov.png",
+    "stack": "NextJS , NextAuth, Mongo, Tailwind",
+    "url": "https://github.com/kamensgh/jumplink"
   }
 ]

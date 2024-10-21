@@ -1,22 +1,26 @@
 /* eslint-disable @next/next/no-img-element */
-"use client"
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-import Container from 'react-bootstrap/Container';
-import React, { useState,useEffect} from 'react';
-import Image from 'next/image';
+'use client'
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
+import Container from 'react-bootstrap/Container'
+import React, { useState, useEffect } from 'react'
+import Image from 'next/image'
 
 function Header() {
-  const [scroll, setScroll] = useState(false);
+  const [scroll, setScroll] = useState(false)
   useEffect(() => {
     window.addEventListener('scroll', () => {
-      setScroll(window.scrollY > 50);
-    });
-  }, []);
+      setScroll(window.scrollY > 50)
+    })
+  }, [])
 
   return (
     <>
-      <Navbar fixed="top" className={ `main ${scroll ? "normal" : "top"}`} expand="lg">
+      <Navbar
+        fixed="top"
+        className={`main ${scroll ? 'normal' : 'top'}`}
+        expand="lg"
+      >
         <Container fluid>
           <Navbar.Brand href="/">
             <img
@@ -61,32 +65,21 @@ function Header() {
           </Navbar.Toggle>
           <Navbar.Collapse id="navbarScroll" className="justify-content-end">
             <ul className="navbar-nav ml-auto">
-              <li
-                className="nav-item"
-              >
+              <li className="nav-item">
                 <Nav.Link href="#about">About Me</Nav.Link>
               </li>
-              <li
-                className="nav-item "
-              >
+              <li className="nav-item ">
                 <Nav.Link href="#work">Work</Nav.Link>
               </li>
-              <li
-                className="nav-item "
-              >
+              <li className="nav-item ">
                 <Nav.Link href="#contact">Contact</Nav.Link>
               </li>
             </ul>
-           
           </Navbar.Collapse>
-
-         
         </Container>
       </Navbar>
-
-    
     </>
-  );
+  )
 }
 
-export default Header;
+export default Header
