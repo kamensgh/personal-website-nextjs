@@ -144,9 +144,9 @@ body {
 }
 
 .hero-section {
-  height: calc(100vh - 246px);
+  height: calc(100vh - 450px);
   display: flex;
-  margin-top: 63px;
+  margin-top: 80px;
   justify-content: center;
 }
 

@@ -1,35 +1,27 @@
 [
   {
-    "id": 5,
-    "title": "JumpLink",
-    "description": "Millions of movies and TV shows to discover. Explore now.",
-    "image": "/images/ghanagov.png",
-    "stack": "NextJS , NextAuth, Mongo, Tailwind",
-    "url": "https://github.com/kamensgh/jumplink"
-  },
-  {
-    "id": 1,
-    "title": "ECG PowerApp",
-    "description": "A web app for the Electricity Company of Ghana so users can pay thier prepaid and postpaid electricity bills easily from anywhere.",
-    "image": "/images/myghqr.png",
-    "stack": "React , NextJS , C#",
-    "url": "https://powerapp.ecg.com.gh/login"
-  },
-  {
-    "id": 2,
-    "title": "ECG Staff Portal",
-    "description": "A portal for  Electricity Company of Ghana cashiers to access customer accounts, view bills & transactions, take payments and capture complaints.",
-    "image": "/images/myghqr.png",
-    "stack": "React , NextJS , C#",
-    "url": "https://staff.ecg.com.gh/"
-  },
-  {
     "id": 3,
     "title": "RightCom",
     "description": "The company, which specializes in cloud-based customer experience management (CX) software, has evolved into a one-stop-shop for all CX-related needs.",
     "image": "/images/myghqr.png",
     "stack": "React , KeyCloak , Python",
-    "url": "hhttps://rightcom.com/digital-signage-software/"
+    "url": "https://rightcom.com/digital-signage-software/"
+  },
+  {
+    "id": 2,
+    "title": "Hubtel",
+    "description": "Find and pay for everyday essentials from local retailers, food vendors and service providers",
+    "image": "/images/myghqr.png",
+    "stack": "Vue , Nuxt , C#",
+    "url": "https://hubtel.com/"
+  },
+  {
+    "id": 5,
+    "title": "Zego Insurance",
+    "description": "Zego is a company that provides insurance solutions to growing businesses, self-employed individuals like delivery riders, taxis etc.",
+    "image": "/images/ghanagov.png",
+    "stack": "NextJS , GraphQl, Tailwind",
+    "url": "https://www.zego.com/onboarding/"
   },
   {
     "id": 4,
@@ -46,5 +38,14 @@
     "image": "/images/ghanagov.png",
     "stack": "React , NextJS , Bootstrap",
     "url": "https://www.ghana.gov.gh/"
+  },
+
+  {
+    "id": 1,
+    "title": "ECG PowerApp",
+    "description": "A web app for the Electricity Company of Ghana so users can pay thier prepaid and postpaid electricity bills easily from anywhere.",
+    "image": "/images/myghqr.png",
+    "stack": "React , NextJS , C#",
+    "url": "https://powerapp.ecg.com.gh/login"
   }
 ]

@@ -29,21 +29,19 @@ function Content() {
                   <h1
                     className="font-weight-bold big-heading mb-2"
                   >
-                    Kwame Mensah.
+                    Kwame Mensah
                   </h1>
                   <h2
                     className="font-weight-bold big-heading"
                   >
-                    I build things for the web.
+                    Let’s bring your ideas to life.
                   </h2>
 
                   <p
                     className=" h5 my-5 mb-5 my-xl-5"
-                    style={{ lineHeight: '1.5', maxWidth: '588px' }}
+                    style={{ lineHeight: '1.7', maxWidth: '720px' }}
                   >
-                    I turn beautiful designs and ideas into interactive websites
-                    that run across all platforms and devices and I love to make
-                    things that make a difference.
+                    I bring beautiful designs and smart ideas to life through interactive platforms that work everywhere and make an impact.
                   </p>
 
                   <a
@@ -79,10 +77,10 @@ function Content() {
 
           <div className="row">
             <div className="col-12 col-md-12 col-lg-7 order-1 order-lg-0">
-              <p className=" mb-4">
+              <p className="mb-4" style={{ lineHeight: '1.7' }}>
                 Throughout my adventures as a developer, I realized I really care about creating useful, top-class and beautiful products that help and make peoples lives easier. I’m also very curious, and I enjoy work that challenges me to learn something new that also stretches in a different direction. I like traveling, watching movies and tv shows and playing pool table.
               </p>
-              <p className=" mb-4">
+              <p className="mb-4" style={{ lineHeight: '1.7' }}>
                 I’m skilled in building websites and portals from a scratch throughout all phases of development using different approaches, libraries, and frameworks (NextJs, NextAuth, Typescript, Node.js, Git) and other technologies to implement seamless and performant products.
               </p>
               <a
