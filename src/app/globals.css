@@ -28,7 +28,7 @@
 .card {
   position: relative;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) !important;
-  background-color: rgba(17, 34, 64, 0.478) !important;
+  background-color: rgb(40 42 45 / 48%) !important;
   padding: 45px;
 }
 
@@ -113,7 +113,7 @@ body {
   font-size: 0.9rem;
   -webkit-font-smoothing: antialiased;
   color: #8892b0 !important;
-  background-color: #0a192f !important;
+  background-color: rgb(0, 0, 0) !important;
   background-size: cover;
 }
 
@@ -146,7 +146,7 @@ body {
 .hero-section {
   height: calc(100vh - 246px);
   display: flex;
-  align-items: center;
+  margin-top: 63px;
   justify-content: center;
 }
 
@@ -388,7 +388,7 @@ nav.main.top {
 }
 
 nav.main.normal {
-  background-color: rgba(10, 25, 47, 0.85) !important;
+  background-color: #02070eb3 !important;
   backdrop-filter: blur(5px);
 }
 

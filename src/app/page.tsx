@@ -6,11 +6,13 @@ import Header from '../components/header/Header';
 import Content from '../components/content/Content';
 import Footer from '../components/footer/Footer';
 import { motion, useScroll } from "motion/react";
+import TsParticlesBackground from '../components/TsParticlesBackground';
 
 export default function Home() {
   const { scrollYProgress } = useScroll();
   return (
-    <>
+    <main style={{ position: 'relative' }}>
+      <TsParticlesBackground />
       <motion.div
         id="scroll-indicator"
         style={{
@@ -25,9 +27,11 @@ export default function Home() {
           zIndex: 9999,
         }}
       />
-      <Header />
-      <Content />
-      <Footer />
-    </>
+      <div style={{ position: 'relative', zIndex: 2 }}>
+        <Header />
+        <Content />
+        <Footer />
+      </div>
+    </main>
   );
 }

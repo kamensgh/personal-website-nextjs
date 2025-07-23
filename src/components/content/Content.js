@@ -39,7 +39,7 @@ function Content() {
 
                   <p
                     className=" h5 my-5 mb-5 my-xl-5"
-                    style={{ lineHeight: 'inherit', maxWidth: '588px' }}
+                    style={{ lineHeight: '1.5', maxWidth: '588px' }}
                   >
                     I turn beautiful designs and ideas into interactive websites
                     that run across all platforms and devices and I love to make
