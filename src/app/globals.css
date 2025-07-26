@@ -152,7 +152,8 @@ body {
 
 @media (max-width: 576px) {
   .hero-section {
-    height: calc(100vh - 217px);
+    height: calc(100vh - 402px);
+    margin-top: unset;
   }
 }
 
@@ -398,7 +399,7 @@ nav.main .navbar-toggler:focus {
 
 @media (max-width: 576px) {
   nav.main .navbar-nav {
-    background-color: rgba(10, 25, 47, 0.95) !important;
+    background-color: rgb(40 42 45 / 48%) !important;
     backdrop-filter: blur(5px);
   }
 }

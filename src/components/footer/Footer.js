@@ -77,7 +77,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/in/kwame-ampoma-mensah-761306139/"
+                href="https://www.linkedin.com/in/kwame-mensah/"
                 aria-label="Linkedin"
                 target="_blank"
                 rel="noreferrer"

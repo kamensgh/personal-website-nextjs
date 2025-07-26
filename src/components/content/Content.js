@@ -97,7 +97,7 @@ function Content() {
                 <img
                   src={`/images/abstract.png`}
                   className="img-fluid"
-                  alt="Kwame Mensah"
+                  alt="Kwame Ampoma Mensah"
                   width="390"
                 />
               </div>
