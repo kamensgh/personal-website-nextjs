@@ -1,16 +1,16 @@
 /* eslint-disable @next/next/no-img-element */
-'use client'
-import Jobs from '../Jobs2'
-import React, { useState } from 'react'
-import jobsData from '../../data/jobs.json'
+"use client"
+import Jobs from '../Jobs2';
+import React, { useState } from 'react';
+import jobsData from '../../data/jobs.json';
 
 function Content() {
-  const [jobs] = useState(jobsData)
+  const [jobs] = useState(jobsData);
 
   const contact = {
     fontWeight: '600',
     color: '#ccd6f6',
-    lineHeight: '1.1',
+    lineHeight: '1.1'
   }
 
   return (
@@ -21,21 +21,27 @@ function Content() {
             <div className="col-12 col-md-12 col-lg-12 col-xl-10">
               <div className="hero-section">
                 <div>
-                  <p className="text-warning">Hi, my name is</p>
-                  <h1 className="font-weight-bold big-heading mb-2">
-                    Kwame Mensah.
+                  <p
+                    className="text-warning"
+                  >
+                    Hi, my name is
+                  </p>
+                  <h1
+                    className="font-weight-bold big-heading mb-2"
+                  >
+                    Kwame Mensah
                   </h1>
-                  <h2 className="font-weight-bold big-heading">
-                    I build things for the web.
+                  <h2
+                    className="font-weight-bold big-heading"
+                  >
+                    Let’s bring your ideas to life.
                   </h2>
 
                   <p
                     className=" h5 my-5 mb-5 my-xl-5"
-                    style={{ lineHeight: '1.7', maxWidth: '588px' }}
+                    style={{ lineHeight: '1.7', maxWidth: '720px' }}
                   >
-                    I turn beautiful designs and ideas into interactive websites
-                    that run across all platforms and devices and I love to make
-                    things that make a difference.
+                    I bring beautiful designs and smart ideas to life through interactive platforms that work everywhere and make an impact.
                   </p>
 
                   <a
@@ -63,27 +69,19 @@ function Content() {
         </div>
       </main>
 
-      <section id="about">
+      <section
+        id="about"
+      >
         <div className="container">
           <h1 className="title mb-4 mb-md-5">About Me</h1>
 
           <div className="row">
             <div className="col-12 col-md-12 col-lg-7 order-1 order-lg-0">
-              <p className=" mb-4">
-                Throughout my 7+ years as a developer, I realized I really care
-                about creating useful, top-class and beautiful platforms that
-                process transactions worth GBP 50m+ from 2m+ DAU that helps and
-                make peoples lives easier. I’m also very curious, and I enjoy
-                work that challenges me to learn something new that also
-                stretches in a different direction. I like traveling, watching
-                movies and tv shows and playing pool table.
+              <p className="mb-4" style={{ lineHeight: '1.7' }}>
+                Throughout my adventures as a developer, I realized I really care about creating useful, top-class and beautiful products that help and make peoples lives easier. I’m also very curious, and I enjoy work that challenges me to learn something new that also stretches in a different direction. I like traveling, watching movies and tv shows and playing pool table.
               </p>
-              <p className=" mb-4">
-                I’m skilled in building websites and portals from a scratch
-                throughout all phases of development using different approaches,
-                libraries, and frameworks (NextJs, NextAuth, Typescript,
-                Node.js, Git) and other technologies to implement seamless and
-                performant products.
+              <p className="mb-4" style={{ lineHeight: '1.7' }}>
+                I’m skilled in building websites and portals from a scratch throughout all phases of development using different approaches, libraries, and frameworks (NextJs, NextAuth, Typescript, Node.js, Git) and other technologies to implement seamless and performant products.
               </p>
               <a
                 href="mailto:kamensgh@gmail.com"
@@ -108,9 +106,14 @@ function Content() {
         </div>
       </section>
 
+
       <section id="work">
         <div className="container">
-          <h1 className="title mb-4 mb-md-5">Selected Works</h1>
+          <h1
+            className="title mb-4 mb-md-5"
+          >
+            Selected Works
+          </h1>
 
           <div>
             <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3">
@@ -120,7 +123,9 @@ function Content() {
         </div>
       </section>
 
-      <section id="contact">
+      <section
+        id="contact"
+      >
         <div className="container">
           <div className="text-center">
             <p className="text-warning mb-2">03. What’s Next?</p>
@@ -160,17 +165,7 @@ function Content() {
                   <div className="ml-3 ms-2">
                     <p className=" mb-2">
                       <a href="tel:+44 7535 316817" className="">
-                        +44 7535 3168 17
-                      </a>
-                    </p>
-                  </div>
-                </div>
-                <div className="d-flex justify-content-center align-items-start">
-                  <span style={{ width: '32px' }}></span>
-                  <div className="ml-3 ms-2">
-                    <p className=" mb-2">
-                      <a href="tel:+233 267 626 632" className="">
-                        +233 267 626 632
+                        +44 7535 316817
                       </a>
                     </p>
                   </div>
@@ -178,9 +173,7 @@ function Content() {
               </div>
 
               <div className="mt-4 d-none">
-                <h5 className=" font-weight-bold">
-                  Let&apos;s be internet BFFs
-                </h5>
+                <h5 className=" font-weight-bold">Let&apos;s be internet BFFs</h5>
 
                 <div className="mt-3">
                   <img
@@ -223,7 +216,7 @@ function Content() {
         </div>
       </section>
     </>
-  )
+  );
 }
 
-export default Content
+export default Content;
