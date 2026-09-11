@@ -119,7 +119,7 @@ body {
 
 .big-heading {
   margin: 0px;
-  font-size: clamp(40px, 8vw, 67px);
+  font-size: clamp(40px, 8vw, 47px);
   color: #ccd6f6;
   font-weight: 600;
 }
