@@ -24,7 +24,7 @@ function Content() {
                   <p
                     className="text-warning"
                   >
-                    Hello, human. I am
+                    Hi, my name is
                   </p>
                   <h1
                     className="font-weight-bold big-heading mb-2"
