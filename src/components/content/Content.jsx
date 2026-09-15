@@ -34,14 +34,14 @@ function Content() {
                   <h2
                     className="font-weight-bold big-heading"
                   >
-                    Let’s bring your ideas to life.
+                    Your ideas, but they actually load.
                   </h2>
 
                   <p
                     className=" h5 my-5 mb-5 my-xl-5"
                     style={{ lineHeight: '1.7', maxWidth: '720px' }}
                   >
-                    I bring beautiful designs and smart ideas to life through interactive platforms that work everywhere and make an impact.
+                    I build interactive things that work on phones, laptops and your uncle&apos;s 2011 tablet. No promises about the fridge.
                   </p>
 
                   <a
@@ -50,7 +50,7 @@ function Content() {
                     rel="noreferrer"
                     className="btn btn-outline-warning text-warning bg-transparent"
                   >
-                    Download Resume
+                    Download Proof I&apos;m Employable
                   </a>
                 </div>
               </div>
