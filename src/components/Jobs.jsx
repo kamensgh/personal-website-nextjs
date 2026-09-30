@@ -10,7 +10,7 @@ function Job(props) {
             <img
               src={job.image}
               className="card-img-top"
-              alt="..."
+              alt={`${job.title} — project screenshot`}
             />
           </div>
           <a

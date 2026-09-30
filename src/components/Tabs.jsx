@@ -48,7 +48,7 @@ function Tabs() {
                     <img
                       src={`${process.env.PUBLIC_URL}/images/projectimage.png`}
                       className="img-fluid rounded"
-                      alt="project"
+                      alt="MyGHQR — project screenshot"
                       width=""
                     />
                     <div>
