@@ -21,7 +21,7 @@ function Header() {
           <Navbar.Brand href="/">
             <img
               src={`/images/logos/black.png`}
-              alt="logo"
+              alt="Kwame Mensah — home"
               className="img-fluid"
             />
           </Navbar.Brand>

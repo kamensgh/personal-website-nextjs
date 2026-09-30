@@ -61,7 +61,7 @@ function Content() {
                 <img
                   src={`/images/abstract.png`}
                   className="img-fluid"
-                  alt="Kwame Mensah"
+                  alt="Silhouette portrait of Kwame Mensah"
                 />
               </div>
             </div>
@@ -73,7 +73,7 @@ function Content() {
         id="about"
       >
         <div className="container">
-          <h1 className="title mb-4 mb-md-5">About Me</h1>
+          <h2 className="title mb-4 mb-md-5">About Me</h2>
 
           <div className="row">
             <div className="col-12 col-md-12 col-lg-7 order-1 order-lg-0">
@@ -97,7 +97,7 @@ function Content() {
                 <img
                   src={`/images/abstract.png`}
                   className="img-fluid"
-                  alt="Kwame Ampoma Mensah"
+                  alt="Silhouette portrait of Kwame Mensah"
                   width="390"
                 />
               </div>
@@ -109,11 +109,11 @@ function Content() {
 
       <section id="work">
         <div className="container">
-          <h1
+          <h2
             className="title mb-4 mb-md-5"
           >
             Selected Works
-          </h1>
+          </h2>
 
           <div>
             <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3">
@@ -129,9 +129,9 @@ function Content() {
         <div className="container">
           <div className="text-center">
             <p className="text-warning mb-2">03. What’s Next?</p>
-            <h1 className="" style={contact}>
+            <h2 className="" style={contact}>
               Contact Me
-            </h1>
+            </h2>
           </div>
 
           <div className="row justify-content-center">
@@ -145,7 +145,8 @@ function Content() {
                   <img
                     src={`/images/email.png`}
                     className=""
-                    alt="icon"
+                    alt=""
+                    aria-hidden="true"
                     width="24"
                   />
                   <p className=" ml-3 mb-0 ms-2">
@@ -158,7 +159,8 @@ function Content() {
                 <div className="d-flex justify-content-center align-items-start">
                   <img
                     src={`/images/tel.png`}
-                    alt="icon"
+                    alt=""
+                    aria-hidden="true"
                     className=""
                     width="24"
                   />
@@ -179,25 +181,25 @@ function Content() {
                   <img
                     src={`/images/git.png`}
                     className="mr-3"
-                    alt="icon"
+                    alt="GitHub"
                     width="24"
                   />
                   <img
                     src={`/images/fb.png`}
                     className="mr-3"
-                    alt="icon"
+                    alt="Facebook"
                     width="24"
                   />
                   <img
                     src={`/images/twitter.png`}
                     className="mr-3"
-                    alt="icon"
+                    alt="X (formerly Twitter)"
                     width="24"
                   />
                   <img
                     src={`/images/insta.png`}
                     className=""
-                    alt="icon"
+                    alt="Instagram"
                     width="24"
                   />
                 </div>
